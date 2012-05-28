@@ -1,0 +1,143 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}/* remember to define focus styles! */:focus {outline: 0;}/* remember to highlight inserts somehow! */ins {text-decoration: none;}del {text-decoration: line-through;}/* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse;border-spacing: 0;}
+
+/* --- TEXT STYLES --- */
+
+	body{
+		font:13px/1.5 'Helvetica Neue', Helvetica ,Arial,'Liberation Sans',FreeSans,sans-serif;
+		text-shadow:0 1px #fff;
+	}
+	
+/* --- GENERAL STYLES --- */
+	
+	body {
+		background-color: #eee7e0;
+	}
+	
+	.wrap {
+		width: 960px;
+		margin: 0 auto;
+	}
+	
+	article, aside, figure, footer, header, hgroup, nav, section { display:block; }
+	
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+
+	#header {
+		border-top: 2px solid #b1ada8;
+		background-color: #f4ebe2;
+		height: 207px;
+		display: block;
+		-webkit-box-shadow: 0px 1px 0px #f8f8f8;
+		-moz-box-shadow: 0px 1px 0px #f8f8f8;
+		box-shadow: 0px 1px 0px #f8f8f8; 
+		border-bottom: 2px solid #e2dad2;
+		padding: 15px 15% 0;
+		position: relative;
+	}
+	
+	#add {
+		display: block;
+		text-indent: -9999px;
+		width: 123px;
+		height: 35px;
+		background: url(../img/add.png) scroll no-repeat 0 -42px transparent;
+		margin-bottom: 18px;
+	}
+	
+	#add:hover {
+		background-position: 0 bottom;
+	}
+	
+	#logo {
+		display: block;
+		text-indent: -9999px;
+		background: url(../img/logo.png) scroll no-repeat 0 0 transparent;
+		width: 297px;
+		height: 82px;
+		margin: 0 auto;
+	}
+	
+	#clear {
+		float: right;
+		display: block;
+		text-indent: -9999px;
+		width: 94px;
+		height: 35px;
+		background: url(../img/clear.png) scroll no-repeat 0 bottom transparent;
+	}
+	
+	#clear:hover {
+		background-position: 0 top;
+	}
+	
+	#dueDate {
+		position: absolute;
+		bottom: 10px;
+		font-size: 15px;
+		color: #a1a09d;
+		margin-left: 5px;
+	}
+	
+/* -----------------------------------*/
+/* ---------->>> TASKS <<<------------*/
+/* -----------------------------------*/
+	
+	.task {
+		padding: 30px 15%;
+		font-size: 30px;
+		color: #4d4c4a;
+		-webkit-box-shadow: 0px 1px 0px #f8f8f8;
+		-moz-box-shadow: 0px 1px 0px #f8f8f8;
+		box-shadow: 0px 1px 0px #f8f8f8; 
+		border-bottom: 1px solid #e2dad2;
+		list-style: none;
+		margin: 0;
+	}
+	
+	section.taskContent {
+		cursor: text;
+		width: 90%;
+	}
+	
+	section.editing {
+		background-color: #e8e1d9;
+	}
+	
+	time.taskTime {
+		color: #7b7976;
+		font-size: 22px;
+		margin: 9px 29px 0 0;
+		float: left;
+	}
+	
+	time.taskTime .suffix {
+		font-size: 14px;
+	}
+	
+	a.delete {
+		float: right;
+		background: url(../img/delete.png) scroll no-repeat 0 0 transparent;
+		display: block;
+		width: 98px;
+		height: 38px;
+		text-indent: -9999px;
+		margin-top: 6px;
+		opacity: 0.4;
+	}
+	
+	a.delete:hover {
+		background-position: 0 -41px;
+	}
+	
+	a.delete:active {
+		background-position: 0 -82px;
+	}
+	
+	.hourData {
+		position: absolute;
+	}
+	
+	
+	
