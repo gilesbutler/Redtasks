@@ -2,7 +2,6 @@ Redtasks
 ========
 An HTML5 local-storage based task list
 ---------
----------
 * Local Storage
 * Content Editable
 
